@@ -11,7 +11,7 @@ services:
 
 
   web:
-    image: ballisticeffect/api_yamdb
+    image: ballisticeffect/yamdb_final
     restart: always
     volumes:
       - static_value:/app/static/
